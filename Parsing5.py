@@ -1,7 +1,9 @@
 import csv
 
 # Print a specific column 
-with open('/Users/dstclair/Downloads/mfa-users.csv', 'rb') as testf:
+testpath = 'C:\Users\Devin\Downloads\users.csv'
+#testpath = '/Users/dstclair/Downloads/mfa-users.csv'
+with open(testpath, 'rb') as testf:
     testr = csv.reader(testf)
-    print [i[1] for i in testr]
+    print [i[0] for i in testr]
 
