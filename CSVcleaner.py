@@ -1,5 +1,6 @@
 # Example of use: python CSVcleaner.py ~/Downloads/source_file ~/Downloads/destination_file 1 14
 # 1 and 14 being the range of rows you wish to remove, it will remove rows 1-13 (I'm not sure why it won't grab the last line, but take that in account)
+# TEMPORARY - The lines designated acren't actually removed, but that is the next step, it was easier to test by just writing the range to another file
 
 
 import csv
