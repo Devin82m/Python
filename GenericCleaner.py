@@ -1,3 +1,5 @@
+# Devin St. Clair - 2017
+
 # Use: python27 GenericCleaner.py source_file destination_file 1 3
 # 1 and 3 are the start and end line you wish to remove
 

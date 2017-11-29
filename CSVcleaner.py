@@ -1,3 +1,5 @@
+# Devin St. Clair - 2017
+
 # Example of use: python CSVcleaner.py ~/Downloads/source_file ~/Downloads/destination_file 1 14
 
 import csv
